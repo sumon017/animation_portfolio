@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Home page design css */
+.nav-link{
+  color: #80280d !important;
+}
+ .nav-link:focus {
+   border-bottom: 2px solid #80280d !important;
+   color: #80280d !important;
+ }
+.btn-get-started{
+  padding: 10px 30px !important;
+  border: 1px solid #61dafb;
+  border-radius: 30px ;
+  text-decoration: none !important;
+  color: rgb(115, 175, 228);
+  transition: 0.7s;
+}
+.btn-get-started:hover{
+  background-color: #61dafb;
+  color: aliceblue;
+}
+.home_about{
+  height: 90vh;
+  width: 100%;
+  background-color: rgba(205, 247, 248, 0.24);
+}
+.animate{
+ animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0%   {transform: translateY(20px);}
+
+  100% {transform: translateY(-70px);}
+}
+
+.service{
+ 
+  background-color: rgba(205, 247, 248, 0.24);
+}
+.form-control{
+  border: 2px solid #39d1b0 !important;
+}
+.form-control:focus{
+  border: 2px solid #80280d !important;
+  box-shadow: none !important;
+}

@@ -1,5 +1,9 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Mulish', sans-serif !important;
 }
 
 .App-logo {
